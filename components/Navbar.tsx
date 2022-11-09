@@ -37,17 +37,17 @@ const Navbar = ({ routes }: NavbarProps) => {
             )}
           </li>
         ))}
-        <Button href="sm-sami.pdf" download="sm-sami.pdf">
+        {/* <Button href="sm-sami.pdf" download="sm-sami.pdf">
           resume
-        </Button>
+        </Button> */}
       </>
     );
   };
 
   return (
     <nav className="content-padding my-[10vh] flex justify-between">
-      <div className="cursor-pointer text-2xl font-bold text-red transition-all duration-300 hover:scale-110">
-        <Link href="/">sm-sami</Link>
+      <div className="cursor-pointer font-emphasis text-2xl font-bold text-red transition-all duration-300 hover:scale-110">
+        <Link href="/">kanakshilledar</Link>
       </div>
       <div className="cursor-pointer text-xl">
         <ul className="flex flex-col items-end gap-3 md:hidden">

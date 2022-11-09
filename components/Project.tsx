@@ -47,7 +47,7 @@ const Project = ({
         {children && (
           <div className="flex flex-col gap-3">
             {children}
-            <div className="z-10 duration-300 hover:scale-150">
+            <div>
               {deps
                 ? image && (
                     <a href={deps}>

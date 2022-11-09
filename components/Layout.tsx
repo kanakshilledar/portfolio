@@ -13,7 +13,7 @@ const Layout = ({ pageName, children, routes }: LayoutProps) => {
   return (
     <div className="grid min-h-screen">
       <Head>
-        <title>Mohamed Sami{pageName && ` | ${pageName}`}</title>
+        <title>Kanak Shilledar{pageName && ` | ${pageName}`}</title>
       </Head>
       <Navbar routes={routes} />
       <main>{children}</main>

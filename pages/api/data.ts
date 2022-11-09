@@ -1,5 +1,5 @@
 import database from "@utils/database";
-import type { SkillSet } from "../skills";
+import type { SkillSet } from "./skills";
 import type { ProjectProps } from "./projects";
 import { AssetAttributionProps, InspirationProps, TechStackProps } from "../attributions";
 import type { NextApiRequest, NextApiResponse } from "next";
