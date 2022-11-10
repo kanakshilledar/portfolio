@@ -25,11 +25,11 @@ const Hero = ({ name, greeting, tag }: HeroProps) => {
           </div>
         </div>
         <p className="mt-5 text-lg md:m-0 md:w-1/2 lg:text-xl">
-          {/* todo add 2 words */}A sophomore CSE undergrad who loves to{" "}
+          A sophomore CSE undergrad who loves to{" "}
           <span className="font-bold">develop embedded systems</span>. Always
-          ready to take up challenges to{" "}
+          in for working on a project to{" "}
           <span className="font-bold">
-            make the internet a little better than before.
+            make the internet a better place.
           </span>
         </p>
       </main>

@@ -9,6 +9,6 @@ export const homePageRoutes = [
 
 export const footerRoutes = [
   { page: "github", href: "https://github.com/kanakshilledar" },
-  { page: "linkedin", href: "https://www.linkedin.com/in/sm-sami/" }, //TODO: update linkedin
+  { page: "linkedin", href: "https://www.linkedin.com/in/kanak-shilledar-b2101b22a/" },
   { page: "instagram", href: "https://www.instagram.com/kanakshilledar/" },
 ];
